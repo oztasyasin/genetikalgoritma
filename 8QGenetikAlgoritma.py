@@ -140,7 +140,6 @@ def main_2point():
                 results.append((popSize, mutasyonOrani, caprazlamaOrani, duration, best))
                 print(f"popSize: {popSize}, mutasyonOrani: {mutasyonOrani}, caprazlamaOrani: {caprazlamaOrani}, duration: {duration}, best: {best}")
 
-    # Print results in a table format
     print("\nResults:\n")
     print("popSize | mutasyonOrani | caprazlamaOrani | duration (sec) | best solution")
     for res in results:
